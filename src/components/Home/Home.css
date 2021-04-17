@@ -1,0 +1,66 @@
+/* :home-title {
+  --fade-in-seconds: 1;
+}
+:home-intro {
+  --fade-in-seconds: 2;
+} */
+
+/* 
+.one {
+  color: white;
+  background-color: var(--main-bg-color); */
+
+
+.home-section {
+  margin: 3rem 10rem;
+}
+
+.home-intro {
+  text-align: center;
+  animation: fadeIn linear 1.5s;
+  -webkit-animation: fadeIn linear 1.5s;
+  -moz-animation: fadeIn linear 1.5s;
+  -o-animation: fadeIn linear 1.5s;
+  -ms-animation: fadeIn linear 1.5s;
+}
+.home-title {
+  text-align: center;
+  animation: fadeIn linear 0.5s;
+  -webkit-animation: fadeIn linear 0.5s;
+  -moz-animation: fadeIn linear 0.5s;
+  -o-animation: fadeIn linear 0.5s;
+  -ms-animation: fadeIn linear 0.5s;
+}
+
+.fade-in-text {
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
