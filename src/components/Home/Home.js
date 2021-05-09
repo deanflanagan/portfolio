@@ -1,36 +1,36 @@
-import React from 'react'
-
-import './Home.css'
-import Logo from '../../assets/images/sunset.jpg'
-// import About from './About'
+import React from "react";
+import "./Home.css";
+import Mugshot from "../../assets/images/sunset.jpg";
 
 const Welcome = () => {
-    return (
-            <main >
-                <section className='home-section'>
-                        <h1 className="home-title" >Dean Flanagans Home Page</h1>
-                        <p className="home-intro">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                        inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-                        fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-                        sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                        amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
-                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-                        minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                        laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum
-                        iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-                        consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-                        </p>
-                        {/* <div><img src='../../assets/images/sunset.jpg' alt="logo"  />Raly</div> */}
-                        <div><img src={Logo} alt="logo"  />Raly</div>
-                        
-              
-                </section>
+  return (
+    <main>
+      <section className="home-section">
+        <h1 className="centre-text fade-in-text-fast">
+          Dean Flanagans Home Page
+        </h1>
+        <p className="centre-text fade-in-text">
+          Welcome and thank you for visiting. Dean Flanagan is a software
+          developer based in Ontario.
+        </p>
+        <div className="single-image-container centre-text fade-in-text">
+          <img src={Mugshot} alt="logo" className="single-image" />
+          Working on the pensiveness...
+        </div>
+        <p className="fade-in-text">
+          This site is a showcase for my talent and profile. I invite you to
+          explore my unique <a href="/Experience">past experiences</a> and what
+          brought me to programming. You can get a good idea of how what kind of
+          software developemnt I have learend to date and my current skillset by
+          visiting my current live projects. One of the few constant's in life
+          is change and I embrace it. You can see where my sights are trained on
+          next by visiting the aspirations page.
+        </p>
 
-            </main>
-    )
-}
+        {/* https://blog.mailtrap.io/react-send-email/#Sending_emails_with_EmailJS */}
+      </section>
+    </main>
+  );
+};
 
-export default Welcome
+export default Welcome;

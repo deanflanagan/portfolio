@@ -1,0 +1,14 @@
+[data-popup="tooltip"].popup-overlay {
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* msie */
+  background-color: #000;
+}
+
+.popup-content {
+  position: fixed !important;
+  /* z-index: 999 ; */
+  pointer-events: auto !important;
+  top: 40% !important;
+  left: 45% !important;
+  /* left: 50%; */
+}
