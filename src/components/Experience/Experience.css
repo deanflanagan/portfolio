@@ -7,6 +7,11 @@
   padding: 3rem;
 } */
 
+.title {
+  text-align: center;
+}
+
+
 .skillbar-title::before {
   font-size: 20px;
 }
@@ -28,7 +33,7 @@
 }
 
 .brag-container {
-  padding: 3rem 15rem 5rem 15rem;
+  padding: 3rem 3rem 0rem 10rem;
   display: grid;
   grid-template-columns: 0.5fr 1.5fr;
   
@@ -40,4 +45,5 @@
 
 .hash-link {
   color: black;
+  
 }

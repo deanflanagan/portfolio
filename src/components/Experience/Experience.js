@@ -9,11 +9,11 @@ export default function Experience() {
     <React.Fragment>
       <div class="wrapper">
         <section className="section-intro">
-          <h2>Skills and Project</h2>
+          <h2 className="title">Skills and Project</h2>
           <p>
             Below you can find examples of my skills across a range of
-            Technologies. Click on the section title to see examples of problems
-            i've solved in each technology.
+            Technologies. Click on any <strong><u>link</u></strong> to see examples of problems
+            i've solved.
           </p>
           <p>
             I also welcome you to view my live website{" "}
@@ -27,7 +27,7 @@ export default function Experience() {
         <div className="skillWrapper">
           {data.map((skill) => (
             <div className="skill-container">
-              <h4>
+              <h4 >
                 <HashLink className="hash-link" to={skill.tag}>
                   {skill.title}
                 </HashLink>
@@ -45,9 +45,9 @@ export default function Experience() {
         </div>
         {data.map((skill) => (
           <div id={skill.tag.slice(1)} >
-            <h3>{skill.title}</h3>
+            <h3 className="title">{skill.title}</h3>
 
-            {skill.skillBlurbs.map((blurb) => <React.Fragment ><div className="brag-container"><a href={blurb.url}><img src={blurb.img}/></a><div>{blurb.text}</div></div></React.Fragment>)}
+            {skill.skillBlurbs.map((blurb) => <React.Fragment ><h4 className="title">{blurb.type}</h4><div className="brag-container"><a href={blurb.url}><img src={blurb.img}/></a><div>{blurb.text}</div></div></React.Fragment>)}
           </div>
         ))}
       </div>

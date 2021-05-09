@@ -14,7 +14,7 @@ export default function Footer() {
     <div>
       <h2>Footer</h2>
 
-      <Popup trigger={<button> Trigger</button>} position="center">
+      <Popup trigger={<button> Email me here!</button>} position="center">
         <EmbeddedEmail />
       </Popup>
     </div>

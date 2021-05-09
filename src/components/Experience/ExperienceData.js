@@ -10,6 +10,10 @@ import Frontend from '../../assets/data-logos/frontend.png'
 import Algo from '../../assets/data-logos/algo.png'
 import Api from '../../assets/data-logos/api.png'
 import Sales from '../../assets/data-logos/sales.png'
+import Adaptability from '../../assets/data-logos/adaptability.png'
+import Collaboration from '../../assets/data-logos/collaboration.png'
+import Education from '../../assets/data-logos/education.png'
+import Product from '../../assets/data-logos/product.png'
 
 const data = [
   {
@@ -55,25 +59,25 @@ const data = [
         {
           type: "Python",
           img: Python,
-          text: "It all started with a gigantic excel file...",
-          url:"www.google.com"
+          text: "Python? C'est ma langue maternelle. I first started with Python six years ago and love how it reads so well and can be applied to most applications. Click the image to see a CLI I made for betting on Major League Soccer with a Node.js (Express) backend.",
+          url:"https://github.com/spankyf/soccer-betting"
         },
         {
           type: "Javascript",
           img: JS,
-          text: "I learned the language of the web because, well one has to don't they?",
-          url:"www.netflix.com"
+          text: "Initially, coming from OOP to Javascript was a shock. But once you render your first div the validation from seeing your work right there motivates to go further. My skill here is growing: both this and my main project are coded in React. I am happy to work in vanilla JS too though; check out this little metaphor maker server I made to help practice coming up with lyrics.",
+          url:"https://github.com/spankyf/metaphorize"
         },
         {
           type: "SQL / NoSQL",
           img: SQL,
-          text: "No DB = no pants.",
-          url:"www.netflix.com"
+          text: "When I first began learning to code, I did everything in a vacuum and mostly through Pandas. So everything was stored in a csv. Thank heavens I eventually grew up and learned all about SQL. The link takes you to a course I took which helped my stop worrying and love writing queries and setting up databases in psql. Still not great with preventing injection yet.",
+          url:"https://www.udemy.com/course/master-sql-for-data-science/"
         },
         {
           type: "Linux",
           img: Linux,
-          text: "To paraphrase Jagger 'A software engineer can't be a software engineer if he doesn't smoke the same sudo as me'",
+          text: "I migrated to using an Ubuntu system about 10 years ago. Honestly, the setup and lack of fiddling that comes with it converted me to the good church of FOSS and off the likes of Apple for life. The link takes you to a link showing how I managed to set up a Django scraping job on it. I am currently trying to convert the old girl to a home server.",
           url:"www.netflix.com"
         },
         {
@@ -187,9 +191,27 @@ const data = [
         url:"www.google.com"
       },
       {
-        type: "Javascript",
-        img: JS,
-        text: "I learned the language of the web because, well one has to don't they?",
+        type: "Education",
+        img: Education,
+        text: "Bachelors of Science in Chemistry from National University of Ireland, Galway",
+        url:"www.netflix.com"
+      },
+      {
+        type: "Collaboration",
+        img: Collaboration,
+        text: "Comfortable working across departements to achieve marketing, techncial goals",
+        url:"www.netflix.com"
+      },
+      {
+        type: "Adaptability",
+        img: Adaptability,
+        text: "I could live in a shoe: whatever my tools are, that's what I work with.",
+        url:"www.netflix.com"
+      },
+      {
+        type: "Product Management and Customer Satisfaction",
+        img: Product,
+        text: "Have worked with customers through a long B2B process and understand how to manage that. ",
         url:"www.netflix.com"
       },
 
