@@ -28,9 +28,14 @@
 }
 
 .brag-container {
-  padding: 3rem 15rem 3rem 15rem;
+  padding: 3rem 15rem 5rem 15rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 1.5fr;
+  
+}
+
+.brag-container img {
+  max-height: 3.5rem;
 }
 
 .hash-link {

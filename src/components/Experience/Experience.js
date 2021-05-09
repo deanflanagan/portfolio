@@ -44,9 +44,10 @@ export default function Experience() {
           ))}
         </div>
         {data.map((skill) => (
-          <div id={skill.tag.slice(1)} className="brag-container">
-            <img src={skill.image} />
-            <div>{skill.text}</div>
+          <div id={skill.tag.slice(1)} >
+            <h3>{skill.title}</h3>
+
+            {skill.skillBlurbs.map((blurb) => <React.Fragment ><div className="brag-container"><a href={blurb.url}><img src={blurb.img}/></a><div>{blurb.text}</div></div></React.Fragment>)}
           </div>
         ))}
       </div>

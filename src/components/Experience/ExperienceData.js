@@ -1,3 +1,16 @@
+import React from "react";
+import HTML from '../../assets/data-logos/html.png'
+import Python from '../../assets/data-logos/python.png'
+import JS from '../../assets/data-logos/javascript.png'
+import SQL from '../../assets/data-logos/sql.png'
+import Linux from '../../assets/data-logos/linux.png'
+import ReactLogo from '../../assets/data-logos/react.png'
+import Backend from '../../assets/data-logos/backend.png'
+import Frontend from '../../assets/data-logos/frontend.png'
+import Algo from '../../assets/data-logos/algo.png'
+import Api from '../../assets/data-logos/api.png'
+import Sales from '../../assets/data-logos/sales.png'
+
 const data = [
   {
     skills: [
@@ -35,11 +48,49 @@ const data = [
     },
     title: "Technical",
     tag: "#technical",
-    image: "./linkedin.png",
-    link: "www.google.com",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam lacus suspendisse faucibus interdum posuere lorem. Quam viverra orci sagittis eu. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam ultrices sagittis orci a scelerisque. Augue eget arcu dictum varius duis. Justo eget magna fermentum iaculis eu. Bibendum ut tristique et egestas quis ipsum. Vel eros donec ac odio tempor. Eget mauris pharetra et ultrices neque ornare. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Molestie nunc non blandit massa enim nec dui. Mattis aliquam faucibus purus in massa tempor. Nisi porta lorem mollis aliquam. Viverra maecenas accumsan lacus vel. Id volutpat lacus laoreet non. Enim praesent elementum facilisis leo vel fringilla. ",
-  },
+    // image: HTML,
+    // link: "www.google.com",
+ 
+      skillBlurbs: [
+        {
+          type: "Python",
+          img: Python,
+          text: "It all started with a gigantic excel file...",
+          url:"www.google.com"
+        },
+        {
+          type: "Javascript",
+          img: JS,
+          text: "I learned the language of the web because, well one has to don't they?",
+          url:"www.netflix.com"
+        },
+        {
+          type: "SQL / NoSQL",
+          img: SQL,
+          text: "No DB = no pants.",
+          url:"www.netflix.com"
+        },
+        {
+          type: "Linux",
+          img: Linux,
+          text: "To paraphrase Jagger 'A software engineer can't be a software engineer if he doesn't smoke the same sudo as me'",
+          url:"www.netflix.com"
+        },
+        {
+          type: "HTML & CSS",
+          img: HTML,
+          text: "Playing with these and adjusting to displays is essential for everyone purporting to do web development.",
+          url:"www.netflix.com"
+        },
+        {
+          type: "React",
+          img: ReactLogo,
+          text: "I started wth React a little while ago and love it. Web development simplifiee..",
+          url:"http://www.netflix.com"
+        },
+
+      ],
+    },
   {
     skills: [
       {
@@ -68,10 +119,33 @@ const data = [
     },
     title: "Concepts",
     tag: "#concepts",
-    image: "./github.png",
-    link: "www.google.com",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam lacus suspendisse faucibus interdum posuere lorem. Quam viverra orci sagittis eu. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam ultrices sagittis orci a scelerisque. Augue eget arcu dictum varius duis. Justo eget magna fermentum iaculis eu. Bibendum ut tristique et egestas quis ipsum. Vel eros donec ac odio tempor. Eget mauris pharetra et ultrices neque ornare. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Molestie nunc non blandit massa enim nec dui. Mattis aliquam faucibus purus in massa tempor. Nisi porta lorem mollis aliquam. Viverra maecenas accumsan lacus vel. Id volutpat lacus laoreet non. Enim praesent elementum facilisis leo vel fringilla. ",
+    skillBlurbs: [
+      {
+        type: "Backend",
+        img: Backend,
+        text: "This is where I can add value right away",
+        url:"www.google.com"
+      },
+      {
+        type: "Frontend",
+        img: Frontend,
+        text: "My frontend skills are at a formative stage still.",
+        url:"www.netflix.com"
+      },
+      {
+        type: "Data Structures & Algorhthms",
+        img: Algo,
+        text: "I enjoy this.",
+        url:"www.netflix.com"
+      },
+      {
+        type: "RESTful API Operations",
+        img: Api,
+        text: "So Cool!",
+        url:"www.netflix.com"
+      },
+
+    ],
   },
   {
     skills: [
@@ -105,10 +179,21 @@ const data = [
     },
     title: "Career",
     tag: "#career",
-    image: require("./linkedin.png"),
-    link: "www.google.com",
-    text:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam lacus suspendisse faucibus interdum posuere lorem. Quam viverra orci sagittis eu. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam ultrices sagittis orci a scelerisque. Augue eget arcu dictum varius duis. Justo eget magna fermentum iaculis eu. Bibendum ut tristique et egestas quis ipsum. Vel eros donec ac odio tempor. Eget mauris pharetra et ultrices neque ornare. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Molestie nunc non blandit massa enim nec dui. Mattis aliquam faucibus purus in massa tempor. Nisi porta lorem mollis aliquam. Viverra maecenas accumsan lacus vel. Id volutpat lacus laoreet non. Enim praesent elementum facilisis leo vel fringilla. ",
+    skillBlurbs: [
+      {
+        type: "B2B Sales",
+        img: Sales,
+        text: "Touch my BASE",
+        url:"www.google.com"
+      },
+      {
+        type: "Javascript",
+        img: JS,
+        text: "I learned the language of the web because, well one has to don't they?",
+        url:"www.netflix.com"
+      },
+
+    ],
   },
 ];
 
