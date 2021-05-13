@@ -1,0 +1,16 @@
+/* .goals-main {
+  padding: 3%;
+} */
+.goals-title {
+  text-align: center;
+}
+
+.goals-container {
+  padding: 5rem 5rem 5rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.goals-item li {
+  padding: 0.5rem;
+}

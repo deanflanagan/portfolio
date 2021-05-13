@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-import Mugshot from "../../assets/images/sunset.jpg";
+// import Mugshot from "../../assets/images/sunset.jpg";
+import Mugshot from "../../assets/images/me.JPG";
 
 const Welcome = () => {
   return (
@@ -15,16 +16,14 @@ const Welcome = () => {
         </p>
         <div className="single-image-container centre-text fade-in-text">
           <img src={Mugshot} alt="logo" className="single-image" />
-          Working on the pensiveness...
+          <i>That's me on the right!</i>
         </div>
         <p className="fade-in-text">
-          This site is a showcase for my talent and profile. I invite you to
-          explore my unique <a href="/Experience">past experiences</a> and what
-          brought me to programming. You can get a good idea of how what kind of
-          software developemnt I have learend to date and my current skillset by
-          visiting my current live projects. One of the few constant's in life
-          is change and I embrace it. You can see where my sights are trained on
-          next by visiting the aspirations page.
+          This site is a showcase for my talents. I invite you to explore my
+          tech skills and experience in the Skills and Projects tab which
+          includes links to my Github projects a live website I deployed. One of
+          the few constant's in life is change and I embrace it. You can see
+          where my sights are trained on next by visiting the Goals page.
         </p>
 
         {/* https://blog.mailtrap.io/react-send-email/#Sending_emails_with_EmailJS */}

@@ -1,12 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Interests from "../Interests/Interests";
-import Projects from "../Projects/Projects";
+import Goals from "../Goals/Goals";
 import Experience from "../Experience/Experience";
 import Home from "../Home/Home";
 import EmbeddedEmail from "../Email/Email";
 import Github from "../../assets/images/GitHub_Logo.png";
-// import LinkedIn from "../../assets/images/linkedin.png";
 import LinkedIn from "../../assets/images/LI-In-Bug.png";
 import Stackoverflow from "../../assets/images/stackoverflow.png";
 
@@ -21,7 +20,7 @@ function Nav() {
       <BrowserRouter>
         <nav className="navbar shadow">
           <div className="navbar--logo-holder">
-            <h1> Stick'Me</h1>
+            <h1>Dean Flanagan</h1>
           </div>
           <ul className="navbar--link">
             <li>
@@ -31,20 +30,14 @@ function Nav() {
             </li>
             <li>
               <Link className="navbar--link-item" to="/Experience">
-                Experience
-              </Link>
-            </li>
-
-            <li>
-              <Link className="navbar--link-item" to="/Projects">
                 Skills and Projects
               </Link>
             </li>
-            {/* <li>
-              <Link className="navbar--link-item" to="/Interests">
-                Career Goals
+            <li>
+              <Link className="navbar--link-item" to="/Goals">
+                Goals
               </Link>
-            </li> */}
+            </li>
           </ul>
         </nav>
 
@@ -55,8 +48,8 @@ function Nav() {
           <Route path="/Interests">
             <Interests />
           </Route>
-          <Route path="/Projects">
-            <Projects />
+          <Route path="/Goals">
+            <Goals />
           </Route>
           <Route path="/Experience">
             <Experience />
